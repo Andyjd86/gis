@@ -151,14 +151,14 @@
       <Option name="dependencies"/>
       <Option value="qgis:createpointslayerfromtable_2" name="id" type="QString"/>
       <Option name="outputs" type="Map">
-        <Option name="osgb_visual_output" type="Map">
+        <Option name="OSGB Visual Output" type="Map">
           <Option value="qgis:createpointslayerfromtable_2" name="child_id" type="QString"/>
-          <Option value="osgb_visual_output" name="component_description" type="QString"/>
-          <Option value="123" name="component_pos_x" type="double"/>
-          <Option value="495.92601430482455" name="component_pos_y" type="double"/>
+          <Option value="OSGB Visual Output" name="component_description" type="QString"/>
+          <Option value="124.5999999999998" name="component_pos_x" type="double"/>
+          <Option value="511.1260143048245" name="component_pos_y" type="double"/>
           <Option name="default_value" type="invalid"/>
           <Option value="false" name="mandatory" type="bool"/>
-          <Option value="osgb_visual_output" name="name" type="QString"/>
+          <Option value="OSGB Visual Output" name="name" type="QString"/>
           <Option value="OUTPUT" name="output_name" type="QString"/>
         </Option>
       </Option>
@@ -344,11 +344,11 @@
       <Option name="dependencies"/>
       <Option value="qgis:refactorfields_1" name="id" type="QString"/>
       <Option name="outputs" type="Map">
-        <Option name="export_osgb" type="Map">
+        <Option name="Export to CSV" type="Map">
           <Option value="qgis:refactorfields_1" name="child_id" type="QString"/>
-          <Option value="export_osgb" name="component_description" type="QString"/>
-          <Option value="124" name="component_pos_x" type="double"/>
-          <Option value="445" name="component_pos_y" type="double"/>
+          <Option value="Export to CSV" name="component_description" type="QString"/>
+          <Option value="120.3999999999999" name="component_pos_x" type="double"/>
+          <Option value="447.59999999999997" name="component_pos_y" type="double"/>
           <Option name="default_value" type="Map">
             <Option value="QgsProcessingOutputLayerDefinition" name="class" type="QString"/>
             <Option name="create_options" type="Map">
@@ -357,11 +357,11 @@
             <Option name="sink" type="Map">
               <Option value="true" name="active" type="bool"/>
               <Option value="1" name="type" type="int"/>
-              <Option value="D:/M3/FWD/Output/StationsCoordsToConvert-OSGB36.csv" name="val" type="QString"/>
+              <Option value="memory:" name="val" type="QString"/>
             </Option>
           </Option>
           <Option value="true" name="mandatory" type="bool"/>
-          <Option value="export_osgb" name="name" type="QString"/>
+          <Option value="Export to CSV" name="name" type="QString"/>
           <Option value="OUTPUT" name="output_name" type="QString"/>
         </Option>
       </Option>
@@ -471,39 +471,39 @@
     </Option>
   </Option>
   <Option name="help"/>
-  <Option value="Conversions" name="model_group" type="QString"/>
-  <Option value="FWD Conversion" name="model_name" type="QString"/>
+  <Option value="Coord-Conversion" name="model_group" type="QString"/>
+  <Option value="FWD_WGS-OSGB" name="model_name" type="QString"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="mycsv" type="Map">
       <Option name="data_types" type="List">
         <Option value="5" type="int"/>
       </Option>
       <Option name="default" type="invalid"/>
-      <Option value="fwd_in" name="description" type="QString"/>
+      <Option value="Import FWD CSV" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option name="metadata"/>
       <Option value="mycsv" name="name" type="QString"/>
       <Option value="vector" name="parameter_type" type="QString"/>
     </Option>
-    <Option name="qgis:createpointslayerfromtable_2:osgb_visual_output" type="Map">
+    <Option name="qgis:createpointslayerfromtable_2:OSGB Visual Output" type="Map">
       <Option value="true" name="create_by_default" type="bool"/>
       <Option value="0" name="data_type" type="int"/>
       <Option name="default" type="invalid"/>
-      <Option value="osgb_visual_output" name="description" type="QString"/>
+      <Option value="OSGB Visual Output" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option name="metadata"/>
-      <Option value="qgis:createpointslayerfromtable_2:osgb_visual_output" name="name" type="QString"/>
+      <Option value="qgis:createpointslayerfromtable_2:OSGB Visual Output" name="name" type="QString"/>
       <Option value="sink" name="parameter_type" type="QString"/>
       <Option value="true" name="supports_non_file_outputs" type="bool"/>
     </Option>
-    <Option name="qgis:refactorfields_1:export_osgb" type="Map">
+    <Option name="qgis:refactorfields_1:Export to CSV" type="Map">
       <Option value="true" name="create_by_default" type="bool"/>
       <Option value="-1" name="data_type" type="int"/>
       <Option name="default"/>
-      <Option value="export_osgb" name="description" type="QString"/>
+      <Option value="Export to CSV" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option name="metadata"/>
-      <Option value="qgis:refactorfields_1:export_osgb" name="name" type="QString"/>
+      <Option value="qgis:refactorfields_1:Export to CSV" name="name" type="QString"/>
       <Option value="sink" name="parameter_type" type="QString"/>
       <Option value="true" name="supports_non_file_outputs" type="bool"/>
     </Option>
